@@ -1,0 +1,82 @@
+Peer-graded Assignment: Final Project: Build an AI RAG Assistant Using LangChain
+DeadlineMay 27, 11:59 PM PKT
+Ready for the assignment?
+You will find instructions below to submit.
+Project Title *
+Give your project a descriptive title
+​
+Task 1 – Submit your screenshot (saved as ‘pdf_loader.png’) that displays both the code used and the first 1000 characters of the content after loading the paper 
+link
+. (10 points)
+
+Refer to the original publication for more details 
+here
+.
+
+Upload File
+Capture a screenshot (saved as ‘code_splitter.png’) that displays the code used to split the following LATEX code and its corresponding results. (10 points)
+
+latex_text = """
+
+\documentclass{article}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Large language models (LLMs) are a type of machine learning model that can be trained on vast amounts of text data to generate human-like language. In recent years, LLMs have made significant advances in various natural language processing tasks, including language translation, text generation, and sentiment analysis.
+
+\subsection{History of LLMs}
+
+The earliest LLMs were developed in the 1980s and 1990s, but they were limited by the amount of data that could be processed and the computational power available at the time. In the past decade, however, advances in hardware and software have made it possible to train LLMs on massive datasets, leading to significant improvements in performance.
+
+\subsection{Applications of LLMs}
+
+LLMs have many applications in the industry, including chatbots, content creation, and virtual assistants. They can also be used in academia for research in linguistics, psychology, and computational linguistics.
+
+\end{document}
+
+
+"""
+
+Upload File
+Task 3 – Capture a screenshot (saved as ‘embedding.png’) that displays the code used to embed the following sentence and its corresponding results, which display the first five embedding numbers. (10 points)
+
+query = "How are you?"
+
+Upload File
+Task 4 – Capture a screenshot (saved as ‘vectordb.png’) that displays the code used to create Chroma vector database that stores the embeddings of the document ‘
+new-Policies.txt
+’ and then conduct a similarity search for the following query with top 5 results. (10 points)
+
+query = "Smoking policy"
+
+Upload File
+Task 5 – Capture a screenshot (saved as ‘retriever.png’) that displays the code used to use ChromaDB as a retriever and conduct a similarity search with the top 2 return results.
+
+The document you can use is ‘
+new-Policies.txt
+’.
+
+The query you can use is:
+
+query = "Email policy"
+
+Upload File
+Task 6 – Capture a screenshot (saved as ‘QA_bot.png’) that displays the QA bot interface you created based on the lab “Construct a QA Bot That Leverages the LangChain and LLM to Answer Questions from Loaded Documents.” Also, the picture should display that you uploaded a PDF and are asking a query to the bot. 
+
+The PDF you can use is available 
+here
+.
+
+Refer to the original publication for more details 
+here
+.
+
+The query you can use is:
+
+query = "What this paper is talking about?"
+
+Upload File
