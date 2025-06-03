@@ -8,7 +8,7 @@ This project is part of the Coursera capstone for the course **"Generative AI Ap
 
 ## 🔗 Open in Google Colab
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romanahmad-dev/rag-qabot-project/blob/main/rag_app_cleaned.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/romanahmad-dev/rag-qabot-project/blob/main/rag_app.ipynb)
 
 ---
 
